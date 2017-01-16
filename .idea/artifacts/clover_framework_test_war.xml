@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="clover-framework-test:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="clover-framework-test.war">
+      <element id="artifact" artifact-name="clover-framework-test:war exploded" />
+    </root>
+  </artifact>
+</component>

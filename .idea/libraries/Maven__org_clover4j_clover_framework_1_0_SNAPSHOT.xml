@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.clover4j:clover-framework:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/Java/maven/repository/org/clover4j/clover-framework/1.0-SNAPSHOT/clover-framework-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Java/maven/repository/org/clover4j/clover-framework/1.0-SNAPSHOT/clover-framework-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Java/maven/repository/org/clover4j/clover-framework/1.0-SNAPSHOT/clover-framework-1.0-SNAPSHOT-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../clover-framework/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
