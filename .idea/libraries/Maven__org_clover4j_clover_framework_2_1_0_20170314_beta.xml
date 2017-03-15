@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.clover4j:clover-framework:2.1.0-20170314.beta">
+    <CLASSES>
+      <root url="jar://D:/Java/maven/repository/org/clover4j/clover-framework/2.1.0-20170314.beta/clover-framework-2.1.0-20170314.beta.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Java/maven/repository/org/clover4j/clover-framework/2.1.0-20170314.beta/clover-framework-2.1.0-20170314.beta-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Java/maven/repository/org/clover4j/clover-framework/2.1.0-20170314.beta/clover-framework-2.1.0-20170314.beta-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../clover-framework/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
