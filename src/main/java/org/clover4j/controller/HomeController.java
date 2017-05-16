@@ -19,7 +19,7 @@ public class HomeController {
 
 
     @Action(value = "get:/home")
-    public View home(Param param){
+    public View home(){
         logger.debug("home");
         return new View("home.jsp").addModel("welcome", "HelloWorld");
     }

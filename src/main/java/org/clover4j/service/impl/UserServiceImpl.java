@@ -17,7 +17,21 @@ import java.util.Map;
 public class UserServiceImpl implements UserService{
 
     @Override
+    @Transaction//表示该方法需要事务支持
     public boolean register(Map<String, Object> fieldMap) {
         return DatabaseHelper.insertEntity(User.class, fieldMap);
+    }
+
+    @Override
+    public boolean login(Map<String, Object> fieldMap) {
+        String sql = "select * from user where username=? and password=?";
+        User user = DatabaseHelper.queryEntity(User.class, sql, fieldMap.get("username"), fieldMap.get("password"));
+        return user == null ? false : true;
+    }
+
+    public User search(Map<String, Object> fieldMap){
+        String sql = "select * from user where username=?";
+        User user = DatabaseHelper.queryEntity(User.class, sql, fieldMap.get("username"));
+        return user;
     }
 }

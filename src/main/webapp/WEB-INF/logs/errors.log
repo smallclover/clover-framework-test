@@ -1353,3 +1353,1654 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Access den
 2017-03-15 15:17:15.323 DEBUG HomeController:23 - home
 2017-03-15 15:17:15.324 DEBUG ControllerProxy:33 - time: 1489562235324ms
 2017-03-15 15:17:15.324 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:01:52.483 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:01:52.542 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 16:01:52.542 DEBUG ControllerProxy:27 - method: home
+2017-04-26 16:01:52.575 DEBUG HomeController:23 - home
+2017-04-26 16:01:52.576 DEBUG ControllerProxy:33 - time: 1493193712575ms
+2017-04-26 16:01:52.576 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:03:12.871 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:03:12.873 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 16:03:12.874 DEBUG ControllerProxy:27 - method: addUserPage
+2017-04-26 16:03:12.882 DEBUG HomeController:27 - addUser
+2017-04-26 16:03:12.883 DEBUG ControllerProxy:33 - time: 1493193792883ms
+2017-04-26 16:03:12.883 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:12:44.71 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:12:44.81 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 16:12:44.82 DEBUG ControllerProxy:27 - method: home
+2017-04-26 16:12:44.105 DEBUG HomeController:23 - home
+2017-04-26 16:12:44.105 DEBUG ControllerProxy:33 - time: 1493194364105ms
+2017-04-26 16:12:44.106 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:43:18.950 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:43:18.954 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 16:43:18.954 DEBUG ControllerProxy:27 - method: home
+2017-04-26 16:43:18.973 DEBUG HomeController:23 - home
+2017-04-26 16:43:18.974 DEBUG ControllerProxy:33 - time: 1493196198974ms
+2017-04-26 16:43:18.975 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:43:19.939 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:43:19.939 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 16:43:19.940 DEBUG ControllerProxy:27 - method: home
+2017-04-26 16:43:19.940 DEBUG HomeController:23 - home
+2017-04-26 16:43:19.941 DEBUG ControllerProxy:33 - time: 1493196199941ms
+2017-04-26 16:43:19.941 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:47:04.30 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:47:04.39 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 16:47:04.39 DEBUG ControllerProxy:27 - method: addUserPage
+2017-04-26 16:47:04.71 DEBUG HomeController:27 - addUser
+2017-04-26 16:47:04.71 DEBUG ControllerProxy:33 - time: 1493196424071ms
+2017-04-26 16:47:04.72 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:47:10.475 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:47:10.476 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 16:47:10.477 DEBUG ControllerProxy:27 - method: addUser
+2017-04-26 16:47:11.286 DEBUG ControllerProxy:33 - time: 1493196431286ms
+2017-04-26 16:47:11.287 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:50:01.249 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:50:01.254 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 16:50:01.254 DEBUG ControllerProxy:27 - method: home
+2017-04-26 16:50:01.275 DEBUG HomeController:23 - home
+2017-04-26 16:50:01.276 DEBUG ControllerProxy:33 - time: 1493196601276ms
+2017-04-26 16:50:01.276 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:50:06.743 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:50:06.745 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 16:50:06.746 DEBUG ControllerProxy:27 - method: addUserPage
+2017-04-26 16:50:06.753 DEBUG HomeController:27 - addUser
+2017-04-26 16:50:06.753 DEBUG ControllerProxy:33 - time: 1493196606753ms
+2017-04-26 16:50:06.753 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 16:50:12.555 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 16:50:12.556 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 16:50:12.557 DEBUG ControllerProxy:27 - method: addUser
+2017-04-26 16:50:12.560 ERROR AspectProxy:37 - proxy failure
+java.lang.NullPointerException
+	at org.clover4j.controller.UserController.addUser(UserController.java:33)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$e60041c0.CGLIB$addUser$1(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$e60041c0$$FastClassByCGLIB$$d2e2a219.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$e60041c0.addUser(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-04-26 16:50:12.567 ERROR ReflectionUtil:50 - invoke method failure
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.clover4j.controller.UserController.addUser(UserController.java:33)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$e60041c0.CGLIB$addUser$1(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$e60041c0$$FastClassByCGLIB$$d2e2a219.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$e60041c0.addUser(<generated>)
+	... 28 more
+2017-04-26 17:07:49.406 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:07:49.415 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:07:49.418 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:07:49.467 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:07:49.467 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:07:49.468 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:07:49.469 DEBUG ControllerProxy:33 - time: 1493197669469ms
+2017-04-26 17:07:49.470 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:07:49.471 DEBUG ControllerProxy:33 - time: 1493197669471ms
+2017-04-26 17:07:49.471 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:07:55.327 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:07:55.328 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:07:55.329 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:07:55.329 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:07:55.330 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:07:55.330 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:07:55.333 DEBUG ControllerProxy:33 - time: 1493197675333ms
+2017-04-26 17:07:55.334 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:07:55.335 DEBUG ControllerProxy:33 - time: 1493197675335ms
+2017-04-26 17:07:55.336 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:07:55.343 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:07:55.345 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:07:55.346 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:07:55.347 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:07:55.348 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:07:55.348 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:07:55.349 DEBUG ControllerProxy:33 - time: 1493197675349ms
+2017-04-26 17:07:55.350 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:07:55.350 DEBUG ControllerProxy:33 - time: 1493197675350ms
+2017-04-26 17:07:55.351 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:09.974 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:09.976 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:09.978 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:09:09.979 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:09.979 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:09.980 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:09:09.981 DEBUG ControllerProxy:33 - time: 1493197749981ms
+2017-04-26 17:09:09.981 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:09.982 DEBUG ControllerProxy:33 - time: 1493197749982ms
+2017-04-26 17:09:09.982 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:09.987 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:09.988 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:09.989 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:09:09.990 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:09.990 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:09.991 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:09:09.994 DEBUG ControllerProxy:33 - time: 1493197749994ms
+2017-04-26 17:09:09.995 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:09.995 DEBUG ControllerProxy:33 - time: 1493197749995ms
+2017-04-26 17:09:09.996 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:17.67 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:17.68 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:17.69 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:09:17.70 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:17.71 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:17.73 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:09:17.75 DEBUG ControllerProxy:33 - time: 1493197757074ms
+2017-04-26 17:09:17.76 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:17.77 DEBUG ControllerProxy:33 - time: 1493197757077ms
+2017-04-26 17:09:17.78 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:17.85 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:17.85 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:17.86 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:09:17.87 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:17.88 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:17.90 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:09:17.91 DEBUG ControllerProxy:33 - time: 1493197757091ms
+2017-04-26 17:09:17.93 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:17.95 DEBUG ControllerProxy:33 - time: 1493197757095ms
+2017-04-26 17:09:17.97 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:31.255 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:31.255 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:31.259 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:09:31.259 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:31.260 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:31.262 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:09:31.262 DEBUG ControllerProxy:33 - time: 1493197771262ms
+2017-04-26 17:09:31.263 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:31.264 DEBUG ControllerProxy:33 - time: 1493197771264ms
+2017-04-26 17:09:31.264 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:31.270 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:31.271 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:31.275 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:09:31.278 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:31.279 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:31.280 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:09:31.280 DEBUG ControllerProxy:33 - time: 1493197771280ms
+2017-04-26 17:09:31.281 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:31.282 DEBUG ControllerProxy:33 - time: 1493197771282ms
+2017-04-26 17:09:31.282 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:50.403 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:50.404 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:50.404 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:09:50.404 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:50.405 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:50.405 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:09:50.405 DEBUG ControllerProxy:33 - time: 1493197790405ms
+2017-04-26 17:09:50.406 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:50.407 DEBUG ControllerProxy:33 - time: 1493197790406ms
+2017-04-26 17:09:50.408 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:50.414 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:50.414 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:50.415 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:09:50.415 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:09:50.416 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:09:50.417 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:09:50.417 DEBUG ControllerProxy:33 - time: 1493197790417ms
+2017-04-26 17:09:50.418 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:09:50.418 DEBUG ControllerProxy:33 - time: 1493197790418ms
+2017-04-26 17:09:50.419 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:10:29.828 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:10:29.829 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:10:29.830 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:10:29.830 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:10:29.831 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:10:29.832 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:10:29.832 DEBUG ControllerProxy:33 - time: 1493197829832ms
+2017-04-26 17:10:29.833 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:10:29.834 DEBUG ControllerProxy:33 - time: 1493197829833ms
+2017-04-26 17:10:29.834 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:10:29.844 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:10:29.845 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:10:29.846 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 17:10:29.846 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:10:29.848 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:10:29.849 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 17:10:29.851 DEBUG ControllerProxy:33 - time: 1493197829850ms
+2017-04-26 17:10:29.851 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:10:29.852 DEBUG ControllerProxy:33 - time: 1493197829852ms
+2017-04-26 17:10:29.853 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 17:12:45.660 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 17:12:45.664 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 17:12:45.665 DEBUG ControllerProxy:27 - method: addUserPage
+2017-04-26 17:12:45.704 DEBUG HomeController:28 - addUser
+2017-04-26 17:12:45.705 DEBUG ControllerProxy:33 - time: 1493197965705ms
+2017-04-26 17:12:45.705 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:26:30.40 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:26:30.45 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:26:30.47 DEBUG ControllerProxy:27 - method: home
+2017-04-26 18:26:30.68 DEBUG HomeController:23 - home
+2017-04-26 18:26:30.69 DEBUG ControllerProxy:33 - time: 1493202390068ms
+2017-04-26 18:26:30.69 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:29:11.146 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:29:11.149 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:29:11.149 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-04-26 18:29:11.168 DEBUG ControllerProxy:33 - time: 1493202551168ms
+2017-04-26 18:29:11.169 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:29:22.53 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:29:22.54 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:29:22.55 DEBUG ControllerProxy:27 - method: login
+2017-04-26 18:29:22.516 ERROR DatabaseHelper:141 - query entity failure
+java.sql.SQLException: Wrong number of parameters: expected 2, was given 1 Query: select * from user where username=? and password=? Parameters: [{password=123, username=small}]
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:392)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:351)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:212)
+	at org.clover4j.framework.helper.DatabaseHelper.queryEntity(DatabaseHelper.java:139)
+	at org.clover4j.service.impl.UserServiceImpl.login(UserServiceImpl.java:27)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$ad4ebdad.CGLIB$login$1(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$ad4ebdad$$FastClassByCGLIB$$de86ae59.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:56)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$ad4ebdad.login(<generated>)
+	at org.clover4j.controller.UserController.login(UserController.java:53)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$8fae69e3.CGLIB$login$0(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$8fae69e3$$FastClassByCGLIB$$d2023641.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$8fae69e3.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-04-26 18:29:22.524 ERROR AspectProxy:37 - proxy failure
+java.lang.RuntimeException
+	at org.clover4j.framework.helper.DatabaseHelper.queryEntity(DatabaseHelper.java:142)
+	at org.clover4j.service.impl.UserServiceImpl.login(UserServiceImpl.java:27)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$ad4ebdad.CGLIB$login$1(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$ad4ebdad$$FastClassByCGLIB$$de86ae59.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:56)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$ad4ebdad.login(<generated>)
+	at org.clover4j.controller.UserController.login(UserController.java:53)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$8fae69e3.CGLIB$login$0(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$8fae69e3$$FastClassByCGLIB$$d2023641.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$8fae69e3.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-04-26 18:29:22.526 ERROR ReflectionUtil:50 - invoke method failure
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException
+	at org.clover4j.framework.helper.DatabaseHelper.queryEntity(DatabaseHelper.java:142)
+	at org.clover4j.service.impl.UserServiceImpl.login(UserServiceImpl.java:27)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$ad4ebdad.CGLIB$login$1(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$ad4ebdad$$FastClassByCGLIB$$de86ae59.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:56)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$ad4ebdad.login(<generated>)
+	at org.clover4j.controller.UserController.login(UserController.java:53)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$8fae69e3.CGLIB$login$0(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$8fae69e3$$FastClassByCGLIB$$d2023641.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$8fae69e3.login(<generated>)
+	... 28 more
+2017-04-26 18:34:29.593 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:29.601 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:34:29.602 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:29.636 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:29.637 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:34:29.637 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:29.638 DEBUG ControllerProxy:33 - time: 1493202869638ms
+2017-04-26 18:34:29.639 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:29.639 DEBUG ControllerProxy:33 - time: 1493202869639ms
+2017-04-26 18:34:29.640 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:29.647 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:29.647 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:34:29.648 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:29.649 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:29.650 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:34:29.650 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:29.653 DEBUG ControllerProxy:33 - time: 1493202869653ms
+2017-04-26 18:34:29.654 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:29.655 DEBUG ControllerProxy:33 - time: 1493202869655ms
+2017-04-26 18:34:29.656 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:37.310 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:37.311 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:34:37.312 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:37.313 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:37.317 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:34:37.318 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:37.320 DEBUG ControllerProxy:33 - time: 1493202877320ms
+2017-04-26 18:34:37.321 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:37.322 DEBUG ControllerProxy:33 - time: 1493202877322ms
+2017-04-26 18:34:37.323 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:37.329 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:37.330 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:34:37.331 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:37.331 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:37.333 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:34:37.335 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:37.337 DEBUG ControllerProxy:33 - time: 1493202877337ms
+2017-04-26 18:34:37.339 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:37.339 DEBUG ControllerProxy:33 - time: 1493202877339ms
+2017-04-26 18:34:37.340 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:38.240 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:38.241 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:38.242 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:38.306 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:38.307 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:38.308 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:38.309 DEBUG ControllerProxy:33 - time: 1493202878309ms
+2017-04-26 18:34:38.310 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:38.310 DEBUG ControllerProxy:33 - time: 1493202878310ms
+2017-04-26 18:34:38.311 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:38.640 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:38.640 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:38.641 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:38.641 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:38.643 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:38.644 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:38.645 DEBUG ControllerProxy:33 - time: 1493202878644ms
+2017-04-26 18:34:38.646 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:38.648 DEBUG ControllerProxy:33 - time: 1493202878648ms
+2017-04-26 18:34:38.650 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:38.665 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:38.666 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:38.666 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:38.667 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:38.671 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:38.672 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:38.675 DEBUG ControllerProxy:33 - time: 1493202878673ms
+2017-04-26 18:34:38.676 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:38.677 DEBUG ControllerProxy:33 - time: 1493202878676ms
+2017-04-26 18:34:38.677 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:39.5 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:39.7 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:39.8 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:39.9 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:39.11 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:39.13 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:39.14 DEBUG ControllerProxy:33 - time: 1493202879013ms
+2017-04-26 18:34:39.15 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:39.16 DEBUG ControllerProxy:33 - time: 1493202879016ms
+2017-04-26 18:34:39.17 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:39.25 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:39.25 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:39.26 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:39.28 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:39.29 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:39.30 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:39.31 DEBUG ControllerProxy:33 - time: 1493202879031ms
+2017-04-26 18:34:39.35 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:39.37 DEBUG ControllerProxy:33 - time: 1493202879037ms
+2017-04-26 18:34:39.43 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:39.580 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:39.580 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:39.581 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:39.582 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:39.582 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:39.583 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:39.584 DEBUG ControllerProxy:33 - time: 1493202879584ms
+2017-04-26 18:34:39.588 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:39.589 DEBUG ControllerProxy:33 - time: 1493202879588ms
+2017-04-26 18:34:39.590 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:39.607 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:39.607 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:39.608 DEBUG ControllerProxy:27 - method: toString
+2017-04-26 18:34:39.611 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:39.612 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:34:39.613 DEBUG ControllerProxy:27 - method: hashCode
+2017-04-26 18:34:39.615 DEBUG ControllerProxy:33 - time: 1493202879614ms
+2017-04-26 18:34:39.615 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:39.616 DEBUG ControllerProxy:33 - time: 1493202879616ms
+2017-04-26 18:34:39.617 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:34:57.864 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:34:57.867 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-04-26 18:34:57.867 DEBUG ControllerProxy:27 - method: home
+2017-04-26 18:34:57.874 DEBUG HomeController:23 - home
+2017-04-26 18:34:57.875 DEBUG ControllerProxy:33 - time: 1493202897875ms
+2017-04-26 18:34:57.875 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:35:03.993 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:35:03.994 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:35:03.995 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-04-26 18:35:04.1 DEBUG ControllerProxy:33 - time: 1493202904001ms
+2017-04-26 18:35:04.1 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:35:07.892 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:35:07.893 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:35:07.893 DEBUG ControllerProxy:27 - method: login
+2017-04-26 18:35:08.471 ERROR DatabaseHelper:141 - query entity failure
+java.sql.SQLException: Wrong number of parameters: expected 2, was given 1 Query: select * from user where username=? and password=? Parameters: [{password=12345678, username=smallclover}]
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:392)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:351)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:212)
+	at org.clover4j.framework.helper.DatabaseHelper.queryEntity(DatabaseHelper.java:139)
+	at org.clover4j.service.impl.UserServiceImpl.login(UserServiceImpl.java:27)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$bbc15a54.CGLIB$login$1(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$bbc15a54$$FastClassByCGLIB$$29ddde39.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:56)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$bbc15a54.login(<generated>)
+	at org.clover4j.controller.UserController.login(UserController.java:53)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$9e21068a.CGLIB$login$0(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$9e21068a$$FastClassByCGLIB$$b1e9d1b8.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$9e21068a.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-04-26 18:35:08.478 ERROR AspectProxy:37 - proxy failure
+java.lang.RuntimeException
+	at org.clover4j.framework.helper.DatabaseHelper.queryEntity(DatabaseHelper.java:142)
+	at org.clover4j.service.impl.UserServiceImpl.login(UserServiceImpl.java:27)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$bbc15a54.CGLIB$login$1(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$bbc15a54$$FastClassByCGLIB$$29ddde39.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:56)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$bbc15a54.login(<generated>)
+	at org.clover4j.controller.UserController.login(UserController.java:53)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$9e21068a.CGLIB$login$0(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$9e21068a$$FastClassByCGLIB$$b1e9d1b8.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$9e21068a.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-04-26 18:35:08.479 ERROR ReflectionUtil:50 - invoke method failure
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException
+	at org.clover4j.framework.helper.DatabaseHelper.queryEntity(DatabaseHelper.java:142)
+	at org.clover4j.service.impl.UserServiceImpl.login(UserServiceImpl.java:27)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$bbc15a54.CGLIB$login$1(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$bbc15a54$$FastClassByCGLIB$$29ddde39.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:56)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$bbc15a54.login(<generated>)
+	at org.clover4j.controller.UserController.login(UserController.java:53)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$9e21068a.CGLIB$login$0(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$9e21068a$$FastClassByCGLIB$$b1e9d1b8.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$9e21068a.login(<generated>)
+	... 28 more
+2017-04-26 18:35:25.236 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:35:25.237 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:35:25.237 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-04-26 18:35:25.238 DEBUG ControllerProxy:33 - time: 1493202925237ms
+2017-04-26 18:35:25.238 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:36:24.647 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:36:24.654 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:36:24.654 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-04-26 18:36:24.681 DEBUG ControllerProxy:33 - time: 1493202984681ms
+2017-04-26 18:36:24.682 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:36:27.593 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:36:27.595 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:36:27.598 DEBUG ControllerProxy:27 - method: login
+2017-04-26 18:38:23.465 ERROR DatabaseHelper:141 - query entity failure
+java.sql.SQLException: Wrong number of parameters: expected 2, was given 1 Query: select * from user where username=? and password=? Parameters: [{password=12345678, username=smallclover}]
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:392)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:351)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:212)
+	at org.clover4j.framework.helper.DatabaseHelper.queryEntity(DatabaseHelper.java:139)
+	at org.clover4j.service.impl.UserServiceImpl.login(UserServiceImpl.java:27)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$c45cd9bc.CGLIB$login$1(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$c45cd9bc$$FastClassByCGLIB$$c4b6dcf5.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:56)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$c45cd9bc.login(<generated>)
+	at org.clover4j.controller.UserController.login(UserController.java:53)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$a6bc85f2.CGLIB$login$0(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$a6bc85f2$$FastClassByCGLIB$$8b80cd3d.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$a6bc85f2.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-04-26 18:44:25.521 ERROR AspectProxy:37 - proxy failure
+java.lang.RuntimeException
+	at org.clover4j.framework.helper.DatabaseHelper.queryEntity(DatabaseHelper.java:142)
+	at org.clover4j.service.impl.UserServiceImpl.login(UserServiceImpl.java:27)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$c45cd9bc.CGLIB$login$1(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$c45cd9bc$$FastClassByCGLIB$$c4b6dcf5.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:56)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$c45cd9bc.login(<generated>)
+	at org.clover4j.controller.UserController.login(UserController.java:53)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$a6bc85f2.CGLIB$login$0(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$a6bc85f2$$FastClassByCGLIB$$8b80cd3d.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$a6bc85f2.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-04-26 18:44:25.534 ERROR ReflectionUtil:50 - invoke method failure
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException
+	at org.clover4j.framework.helper.DatabaseHelper.queryEntity(DatabaseHelper.java:142)
+	at org.clover4j.service.impl.UserServiceImpl.login(UserServiceImpl.java:27)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$c45cd9bc.CGLIB$login$1(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$c45cd9bc$$FastClassByCGLIB$$c4b6dcf5.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:56)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$c45cd9bc.login(<generated>)
+	at org.clover4j.controller.UserController.login(UserController.java:53)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$a6bc85f2.CGLIB$login$0(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$a6bc85f2$$FastClassByCGLIB$$8b80cd3d.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$a6bc85f2.login(<generated>)
+	... 28 more
+2017-04-26 18:45:09.347 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:45:09.351 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:45:09.351 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-04-26 18:45:09.373 DEBUG ControllerProxy:33 - time: 1493203509373ms
+2017-04-26 18:45:09.373 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:45:11.630 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:45:11.631 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:45:11.632 DEBUG ControllerProxy:27 - method: login
+2017-04-26 18:45:12.181 DEBUG ControllerProxy:33 - time: 1493203512181ms
+2017-04-26 18:45:12.182 DEBUG ControllerProxy:34 - ----end----
+2017-04-26 18:45:20.368 DEBUG ControllerProxy:25 - ----debug----
+2017-04-26 18:45:20.369 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-26 18:45:20.370 DEBUG ControllerProxy:27 - method: login
+2017-04-26 18:45:20.387 DEBUG ControllerProxy:33 - time: 1493203520386ms
+2017-04-26 18:45:20.387 DEBUG ControllerProxy:34 - ----end----
+2017-04-27 20:12:37.947 DEBUG ControllerProxy:25 - ----debug----
+2017-04-27 20:12:37.954 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-27 20:12:37.955 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-04-27 20:12:37.977 DEBUG ControllerProxy:33 - time: 1493295157976ms
+2017-04-27 20:12:37.977 DEBUG ControllerProxy:34 - ----end----
+2017-04-27 20:15:54.985 DEBUG ControllerProxy:25 - ----debug----
+2017-04-27 20:15:54.990 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-27 20:15:54.991 DEBUG ControllerProxy:27 - method: login
+2017-04-27 20:15:55.906 DEBUG ControllerProxy:33 - time: 1493295355906ms
+2017-04-27 20:15:55.908 DEBUG ControllerProxy:34 - ----end----
+2017-04-27 20:16:20.378 DEBUG ControllerProxy:25 - ----debug----
+2017-04-27 20:16:20.379 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-27 20:16:20.379 DEBUG ControllerProxy:27 - method: login
+2017-04-27 20:16:20.391 DEBUG ControllerProxy:33 - time: 1493295380391ms
+2017-04-27 20:16:20.391 DEBUG ControllerProxy:34 - ----end----
+2017-04-27 20:17:40.725 DEBUG ControllerProxy:25 - ----debug----
+2017-04-27 20:17:40.728 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-27 20:17:40.729 DEBUG ControllerProxy:27 - method: addUserPage
+2017-04-27 20:17:40.730 DEBUG HomeController:32 - addUser
+2017-04-27 20:17:40.731 DEBUG ControllerProxy:33 - time: 1493295460730ms
+2017-04-27 20:17:40.731 DEBUG ControllerProxy:34 - ----end----
+2017-04-27 20:18:26.402 DEBUG ControllerProxy:25 - ----debug----
+2017-04-27 20:18:26.404 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-27 20:18:26.405 DEBUG ControllerProxy:27 - method: addUser
+2017-04-27 20:18:26.630 DEBUG ControllerProxy:33 - time: 1493295506630ms
+2017-04-27 20:18:26.650 DEBUG ControllerProxy:34 - ----end----
+2017-04-27 20:44:37.307 DEBUG ControllerProxy:25 - ----debug----
+2017-04-27 20:44:37.312 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-27 20:44:37.312 DEBUG ControllerProxy:27 - method: addUserPage
+2017-04-27 20:44:37.333 DEBUG HomeController:32 - addUser
+2017-04-27 20:44:37.333 DEBUG ControllerProxy:33 - time: 1493297077333ms
+2017-04-27 20:44:37.333 DEBUG ControllerProxy:34 - ----end----
+2017-04-27 20:44:43.669 DEBUG ControllerProxy:25 - ----debug----
+2017-04-27 20:44:43.670 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-27 20:44:43.670 DEBUG ControllerProxy:27 - method: addUser
+2017-04-27 20:44:44.92 DEBUG TransactionProxy:44 - begin transaction
+2017-04-27 20:44:44.141 ERROR DatabaseHelper:284 - execute update failure
+java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:392)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:491)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:404)
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:282)
+	at org.clover4j.framework.helper.DatabaseHelper.insertEntity(DatabaseHelper.java:317)
+	at org.clover4j.service.impl.UserServiceImpl.register(UserServiceImpl.java:22)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.CGLIB$register$0(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23$$FastClassByCGLIB$$72477040.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:45)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.register(<generated>)
+	at org.clover4j.controller.UserController.addUser(UserController.java:43)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.CGLIB$addUser$1(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659$$FastClassByCGLIB$$dca285ff.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.addUser(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-04-27 20:44:44.228 DEBUG TransactionProxy:50 - rollback transaction
+2017-04-27 20:44:44.228 ERROR AspectProxy:37 - proxy failure
+java.lang.RuntimeException: java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:285)
+	at org.clover4j.framework.helper.DatabaseHelper.insertEntity(DatabaseHelper.java:317)
+	at org.clover4j.service.impl.UserServiceImpl.register(UserServiceImpl.java:22)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.CGLIB$register$0(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23$$FastClassByCGLIB$$72477040.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:45)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.register(<generated>)
+	at org.clover4j.controller.UserController.addUser(UserController.java:43)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.CGLIB$addUser$1(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659$$FastClassByCGLIB$$dca285ff.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.addUser(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:392)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:491)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:404)
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:282)
+	... 47 more
+2017-04-27 20:44:44.233 ERROR ReflectionUtil:50 - invoke method failure
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:285)
+	at org.clover4j.framework.helper.DatabaseHelper.insertEntity(DatabaseHelper.java:317)
+	at org.clover4j.service.impl.UserServiceImpl.register(UserServiceImpl.java:22)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.CGLIB$register$0(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23$$FastClassByCGLIB$$72477040.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:45)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.register(<generated>)
+	at org.clover4j.controller.UserController.addUser(UserController.java:43)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.CGLIB$addUser$1(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659$$FastClassByCGLIB$$dca285ff.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.addUser(<generated>)
+	... 28 more
+Caused by: java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:392)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:491)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:404)
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:282)
+	... 47 more
+2017-04-27 20:49:02.377 DEBUG ControllerProxy:25 - ----debug----
+2017-04-27 20:49:02.378 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-04-27 20:49:02.380 DEBUG ControllerProxy:27 - method: addUser
+2017-04-27 20:49:02.382 DEBUG TransactionProxy:44 - begin transaction
+2017-04-27 20:49:02.385 ERROR DatabaseHelper:284 - execute update failure
+java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:392)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:491)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:404)
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:282)
+	at org.clover4j.framework.helper.DatabaseHelper.insertEntity(DatabaseHelper.java:317)
+	at org.clover4j.service.impl.UserServiceImpl.register(UserServiceImpl.java:22)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.CGLIB$register$0(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23$$FastClassByCGLIB$$72477040.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:45)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.register(<generated>)
+	at org.clover4j.controller.UserController.addUser(UserController.java:43)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.CGLIB$addUser$1(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659$$FastClassByCGLIB$$dca285ff.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.addUser(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-04-27 20:49:02.435 DEBUG TransactionProxy:50 - rollback transaction
+2017-04-27 20:49:02.436 ERROR AspectProxy:37 - proxy failure
+java.lang.RuntimeException: java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:285)
+	at org.clover4j.framework.helper.DatabaseHelper.insertEntity(DatabaseHelper.java:317)
+	at org.clover4j.service.impl.UserServiceImpl.register(UserServiceImpl.java:22)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.CGLIB$register$0(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23$$FastClassByCGLIB$$72477040.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:45)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.register(<generated>)
+	at org.clover4j.controller.UserController.addUser(UserController.java:43)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.CGLIB$addUser$1(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659$$FastClassByCGLIB$$dca285ff.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.addUser(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:392)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:491)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:404)
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:282)
+	... 47 more
+2017-04-27 20:49:02.439 ERROR ReflectionUtil:50 - invoke method failure
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.clover4j.framework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:48)
+	at org.clover4j.framework.DispatcherServlet.service(DispatcherServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:617)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:285)
+	at org.clover4j.framework.helper.DatabaseHelper.insertEntity(DatabaseHelper.java:317)
+	at org.clover4j.service.impl.UserServiceImpl.register(UserServiceImpl.java:22)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.CGLIB$register$0(<generated>)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23$$FastClassByCGLIB$$72477040.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.TransactionProxy.doProxy(TransactionProxy.java:45)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.service.impl.UserServiceImpl$$EnhancerByCGLIB$$88bcca23.register(<generated>)
+	at org.clover4j.controller.UserController.addUser(UserController.java:43)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.CGLIB$addUser$1(<generated>)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659$$FastClassByCGLIB$$dca285ff.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:57)
+	at org.clover4j.framework.proxy.AspectProxy.doProxy(AspectProxy.java:31)
+	at org.clover4j.framework.proxy.ProxyChain.doProxyChain(ProxyChain.java:54)
+	at org.clover4j.framework.proxy.ProxyManager$1.intercept(ProxyManager.java:30)
+	at org.clover4j.controller.UserController$$EnhancerByCGLIB$$6b1c7659.addUser(<generated>)
+	... 28 more
+Caused by: java.sql.SQLException: Duplicate entry 'wangshun' for key 'username' Query: INSERT INTO User(password, username) VALUES (?, ?) Parameters: [123123, wangshun]
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:392)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:491)
+	at org.apache.commons.dbutils.QueryRunner.update(QueryRunner.java:404)
+	at org.clover4j.framework.helper.DatabaseHelper.update(DatabaseHelper.java:282)
+	... 47 more
+2017-05-12 17:40:36.445 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:40:36.525 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:40:36.526 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:40:36.572 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:40:36.573 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:40:36.575 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:40:36.576 DEBUG ControllerProxy:33 - time: 1494582036576ms
+2017-05-12 17:40:36.577 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:40:36.577 DEBUG ControllerProxy:33 - time: 1494582036577ms
+2017-05-12 17:40:36.578 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:40:46.21 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:40:46.22 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-05-12 17:40:46.23 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:40:46.35 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:40:46.36 DEBUG ControllerProxy:26 - class: org.clover4j.controller.HomeController
+2017-05-12 17:40:46.36 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:40:46.39 DEBUG ControllerProxy:33 - time: 1494582046039ms
+2017-05-12 17:40:46.40 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:40:46.41 DEBUG ControllerProxy:33 - time: 1494582046041ms
+2017-05-12 17:40:46.42 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:14.487 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:14.490 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:14.492 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:14.492 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:14.493 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:14.494 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:14.496 DEBUG ControllerProxy:33 - time: 1494582134495ms
+2017-05-12 17:42:14.496 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:14.500 DEBUG ControllerProxy:33 - time: 1494582134500ms
+2017-05-12 17:42:14.501 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:15.234 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:15.235 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:15.235 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:15.236 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:15.236 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:15.237 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:15.238 DEBUG ControllerProxy:33 - time: 1494582135238ms
+2017-05-12 17:42:15.240 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:15.241 DEBUG ControllerProxy:33 - time: 1494582135240ms
+2017-05-12 17:42:15.241 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:15.938 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:15.939 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:15.939 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:15.939 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:15.940 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:15.940 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:15.941 DEBUG ControllerProxy:33 - time: 1494582135941ms
+2017-05-12 17:42:15.941 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:15.942 DEBUG ControllerProxy:33 - time: 1494582135942ms
+2017-05-12 17:42:15.942 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:15.947 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:15.951 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:15.953 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:15.954 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:15.954 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:15.955 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:15.956 DEBUG ControllerProxy:33 - time: 1494582135955ms
+2017-05-12 17:42:15.956 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:15.957 DEBUG ControllerProxy:33 - time: 1494582135957ms
+2017-05-12 17:42:15.958 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:27.282 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:27.283 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:27.284 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:27.284 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:27.286 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:27.286 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:27.289 DEBUG ControllerProxy:33 - time: 1494582147288ms
+2017-05-12 17:42:27.291 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:27.292 DEBUG ControllerProxy:33 - time: 1494582147292ms
+2017-05-12 17:42:27.293 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:27.299 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:27.299 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:27.300 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:27.301 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:27.302 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:27.303 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:27.303 DEBUG ControllerProxy:33 - time: 1494582147303ms
+2017-05-12 17:42:27.306 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:27.307 DEBUG ControllerProxy:33 - time: 1494582147307ms
+2017-05-12 17:42:27.308 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:35.104 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:35.105 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:35.106 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:35.108 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:35.111 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:35.112 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:35.113 DEBUG ControllerProxy:33 - time: 1494582155112ms
+2017-05-12 17:42:35.116 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:35.117 DEBUG ControllerProxy:33 - time: 1494582155116ms
+2017-05-12 17:42:35.117 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:35.135 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:35.136 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:35.137 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:35.137 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:35.138 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:35.138 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:35.139 DEBUG ControllerProxy:33 - time: 1494582155139ms
+2017-05-12 17:42:35.139 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:35.140 DEBUG ControllerProxy:33 - time: 1494582155140ms
+2017-05-12 17:42:35.140 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:44.584 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:44.585 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:44.586 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:44.586 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:44.587 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:44.587 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:44.588 DEBUG ControllerProxy:33 - time: 1494582164588ms
+2017-05-12 17:42:44.590 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:44.592 DEBUG ControllerProxy:33 - time: 1494582164591ms
+2017-05-12 17:42:44.593 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:44.601 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:44.601 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:44.602 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:44.602 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:44.603 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:44.604 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:44.604 DEBUG ControllerProxy:33 - time: 1494582164604ms
+2017-05-12 17:42:44.607 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:44.608 DEBUG ControllerProxy:33 - time: 1494582164608ms
+2017-05-12 17:42:44.609 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:45.512 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:45.513 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:45.514 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:45.514 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:45.515 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:45.515 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:45.516 DEBUG ControllerProxy:33 - time: 1494582165515ms
+2017-05-12 17:42:45.516 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:45.517 DEBUG ControllerProxy:33 - time: 1494582165517ms
+2017-05-12 17:42:45.518 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:45.526 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:45.527 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:45.528 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:45.528 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:45.529 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:45.531 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:45.532 DEBUG ControllerProxy:33 - time: 1494582165532ms
+2017-05-12 17:42:45.533 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:45.533 DEBUG ControllerProxy:33 - time: 1494582165533ms
+2017-05-12 17:42:45.534 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:47.894 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:47.895 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:47.896 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:47.896 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:47.897 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:47.898 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:47.898 DEBUG ControllerProxy:33 - time: 1494582167898ms
+2017-05-12 17:42:47.899 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:47.900 DEBUG ControllerProxy:33 - time: 1494582167900ms
+2017-05-12 17:42:47.901 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:47.912 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:47.913 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:47.914 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:47.914 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:47.915 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:47.916 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:47.917 DEBUG ControllerProxy:33 - time: 1494582167916ms
+2017-05-12 17:42:47.917 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:47.917 DEBUG ControllerProxy:33 - time: 1494582167917ms
+2017-05-12 17:42:47.917 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:52.115 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:52.116 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:52.118 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:52.119 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:52.119 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:52.120 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:52.121 DEBUG ControllerProxy:33 - time: 1494582172121ms
+2017-05-12 17:42:52.122 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:52.123 DEBUG ControllerProxy:33 - time: 1494582172123ms
+2017-05-12 17:42:52.124 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:52.130 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:52.131 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:52.131 DEBUG ControllerProxy:27 - method: toString
+2017-05-12 17:42:52.131 DEBUG ControllerProxy:25 - ----debug----
+2017-05-12 17:42:52.131 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-12 17:42:52.135 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-12 17:42:52.136 DEBUG ControllerProxy:33 - time: 1494582172136ms
+2017-05-12 17:42:52.136 DEBUG ControllerProxy:34 - ----end----
+2017-05-12 17:42:52.137 DEBUG ControllerProxy:33 - time: 1494582172137ms
+2017-05-12 17:42:52.138 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 18:47:59.210 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 18:47:59.242 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 18:47:59.243 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-05-16 18:47:59.260 DEBUG ControllerProxy:33 - time: 1494931679260ms
+2017-05-16 18:47:59.261 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 18:48:02.712 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 18:48:02.720 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 18:48:02.721 DEBUG ControllerProxy:27 - method: login
+2017-05-16 18:48:03.416 DEBUG ControllerProxy:33 - time: 1494931683415ms
+2017-05-16 18:48:03.417 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 18:49:31.385 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 18:49:31.387 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 18:49:31.388 DEBUG ControllerProxy:27 - method: login
+2017-05-16 18:49:31.419 DEBUG ControllerProxy:33 - time: 1494931771418ms
+2017-05-16 18:49:31.419 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 18:53:13.513 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 18:53:13.591 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 18:53:13.592 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-05-16 18:53:13.642 DEBUG ControllerProxy:33 - time: 1494931993642ms
+2017-05-16 18:53:13.642 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 18:53:17.762 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 18:53:17.765 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 18:53:17.765 DEBUG ControllerProxy:27 - method: login
+2017-05-16 18:53:18.448 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 18:53:18.449 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 18:53:18.450 DEBUG ControllerProxy:27 - method: toString
+2017-05-16 18:53:18.454 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 18:53:18.455 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 18:53:18.455 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-16 18:53:18.456 DEBUG ControllerProxy:33 - time: 1494931998456ms
+2017-05-16 18:53:18.457 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 18:53:18.460 DEBUG ControllerProxy:33 - time: 1494931998460ms
+2017-05-16 18:53:18.462 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 18:56:33.445 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 18:56:33.448 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 18:56:33.448 DEBUG ControllerProxy:27 - method: toString
+2017-05-16 18:56:33.449 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 18:56:33.449 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 18:56:33.450 DEBUG ControllerProxy:27 - method: hashCode
+2017-05-16 18:56:33.451 DEBUG ControllerProxy:33 - time: 1494932193451ms
+2017-05-16 18:56:33.452 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 18:56:33.453 DEBUG ControllerProxy:33 - time: 1494932193453ms
+2017-05-16 18:56:33.454 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 18:57:47.831 DEBUG ControllerProxy:33 - time: 1494932267831ms
+2017-05-16 18:57:47.833 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:00:52.933 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:00:52.939 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:00:52.940 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-05-16 19:00:52.966 DEBUG ControllerProxy:33 - time: 1494932452966ms
+2017-05-16 19:00:52.966 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:00:56.241 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:00:56.242 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:00:56.243 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:00:56.673 DEBUG ControllerProxy:33 - time: 1494932456673ms
+2017-05-16 19:00:56.673 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:04:29.869 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:04:29.869 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:04:29.870 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-05-16 19:04:29.870 DEBUG ControllerProxy:33 - time: 1494932669870ms
+2017-05-16 19:04:29.871 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:04:32.687 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:04:32.690 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:04:32.691 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:04:32.702 DEBUG ControllerProxy:33 - time: 1494932672702ms
+2017-05-16 19:04:32.703 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:06:20.591 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:06:20.601 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:06:20.602 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-05-16 19:06:20.639 DEBUG ControllerProxy:33 - time: 1494932780639ms
+2017-05-16 19:06:20.640 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:06:24.366 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:06:24.367 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:06:24.368 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:06:24.958 DEBUG ControllerProxy:33 - time: 1494932784958ms
+2017-05-16 19:06:24.958 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:07:51.844 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:07:51.845 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:07:51.845 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:07:51.864 DEBUG ControllerProxy:33 - time: 1494932871864ms
+2017-05-16 19:07:51.865 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:39:12.403 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:39:12.406 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:39:12.406 DEBUG ControllerProxy:27 - method: userLoginPage
+2017-05-16 19:39:12.427 DEBUG ControllerProxy:33 - time: 1494934752427ms
+2017-05-16 19:39:12.428 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:39:17.133 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:39:17.134 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:39:17.134 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:39:17.532 DEBUG ControllerProxy:33 - time: 1494934757532ms
+2017-05-16 19:39:17.533 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:40:34.977 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:40:34.978 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:40:34.978 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:40:34.990 DEBUG ControllerProxy:33 - time: 1494934834990ms
+2017-05-16 19:40:34.990 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:41:02.782 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:41:02.784 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:41:02.784 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:41:02.792 DEBUG ControllerProxy:33 - time: 1494934862792ms
+2017-05-16 19:41:02.793 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:41:12.604 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:41:12.604 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:41:12.605 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:41:12.650 DEBUG ControllerProxy:33 - time: 1494934872650ms
+2017-05-16 19:41:12.650 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:41:23.58 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:41:23.58 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:41:23.59 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:41:23.61 DEBUG ControllerProxy:33 - time: 1494934883061ms
+2017-05-16 19:41:23.62 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:41:23.805 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:41:23.806 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:41:23.806 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:41:23.814 DEBUG ControllerProxy:33 - time: 1494934883814ms
+2017-05-16 19:41:23.815 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:41:24.454 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:41:24.454 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:41:24.455 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:41:24.463 DEBUG ControllerProxy:33 - time: 1494934884463ms
+2017-05-16 19:41:24.463 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:41:47.98 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:41:47.99 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:41:47.99 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:41:47.112 DEBUG ControllerProxy:33 - time: 1494934907112ms
+2017-05-16 19:41:47.112 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:41:50.521 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:41:50.521 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:41:50.522 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:41:50.530 DEBUG ControllerProxy:33 - time: 1494934910530ms
+2017-05-16 19:41:50.531 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:42:07.72 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:42:07.73 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:42:07.74 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:42:07.76 DEBUG ControllerProxy:33 - time: 1494934927075ms
+2017-05-16 19:42:07.76 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:42:12.557 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:42:12.558 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:42:12.558 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:42:12.561 DEBUG ControllerProxy:33 - time: 1494934932561ms
+2017-05-16 19:42:12.561 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:42:17.864 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:42:17.865 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:42:17.865 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:42:30.129 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:42:30.130 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:42:30.131 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:42:30.134 DEBUG ControllerProxy:33 - time: 1494934950134ms
+2017-05-16 19:42:30.135 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:43:12.194 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:43:12.195 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:43:12.196 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:43:12.199 DEBUG ControllerProxy:33 - time: 1494934992198ms
+2017-05-16 19:43:12.200 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:43:16.769 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:43:16.770 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:43:16.771 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:43:16.772 DEBUG ControllerProxy:33 - time: 1494934996772ms
+2017-05-16 19:43:16.772 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:43:18.656 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:43:18.656 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:43:18.657 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:43:18.659 DEBUG ControllerProxy:33 - time: 1494934998659ms
+2017-05-16 19:43:18.659 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:43:25.567 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:43:25.567 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:43:25.568 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:43:25.569 DEBUG ControllerProxy:33 - time: 1494935005569ms
+2017-05-16 19:43:25.570 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:43:27.372 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:43:27.373 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:43:27.373 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:43:44.613 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:43:44.614 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:43:44.615 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:43:44.617 DEBUG ControllerProxy:33 - time: 1494935024616ms
+2017-05-16 19:43:44.617 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:43:50.833 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:43:50.833 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:43:50.834 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:43:50.836 DEBUG ControllerProxy:33 - time: 1494935030836ms
+2017-05-16 19:43:50.836 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:46:58.907 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:46:58.909 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:46:58.910 DEBUG ControllerProxy:27 - method: login
+2017-05-16 19:46:58.914 DEBUG ControllerProxy:33 - time: 1494935218914ms
+2017-05-16 19:46:58.915 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:47:02.129 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:47:02.129 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:47:02.130 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:47:02.132 DEBUG ControllerProxy:33 - time: 1494935222132ms
+2017-05-16 19:47:02.132 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:47:10.350 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:47:10.350 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:47:10.350 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:47:10.352 DEBUG ControllerProxy:33 - time: 1494935230352ms
+2017-05-16 19:47:10.352 DEBUG ControllerProxy:34 - ----end----
+2017-05-16 19:47:16.86 DEBUG ControllerProxy:25 - ----debug----
+2017-05-16 19:47:16.87 DEBUG ControllerProxy:26 - class: org.clover4j.controller.UserController
+2017-05-16 19:47:16.88 DEBUG ControllerProxy:27 - method: search
+2017-05-16 19:47:16.90 DEBUG ControllerProxy:33 - time: 1494935236090ms
+2017-05-16 19:47:16.91 DEBUG ControllerProxy:34 - ----end----
